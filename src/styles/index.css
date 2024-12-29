@@ -1,0 +1,59 @@
+/* Mostrar los botones solo cuando el mouse pasa sobre la tarjeta */
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Los botones están ocultos por defecto */
+  .btn-container {
+    opacity: 0;
+    pointer-events: none;  /* No permiten interacciones cuando están ocultos */
+    transition: opacity 0.3s ease-in-out;
+    background-color: #ffffff;  /* Fondo blanco detrás de los botones */
+    padding: 10px 0;  /* Espaciado superior e inferior para los botones */
+    border-radius: 5px;  /* Bordes redondeados para el fondo blanco */
+  }
+  
+  /* Mostrar los botones cuando el mouse pasa sobre el contenedor del libro */
+  .card:hover .btn-container {
+    opacity: 1;
+    pointer-events: all;  /* Permitir interacciones cuando están visibles */
+  }
+  
+  /* Estilo del botón Ver detalle */
+  .btn-outline-light {
+    position: absolute;
+    bottom: 50px;  /* Ajustamos la posición para que esté encima del botón Agregar */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 80%;  /* Hacer los botones más anchos */
+    height: 45px; /* Aumentar la altura */
+    border-color: #ff6600;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #ff6600;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 0;  /* Ajustar el padding para hacer los botones más altos */
+  }
+  
+  /* Efecto hover para el botón Ver detalle */
+  .btn-outline-light:hover {
+    background-color: #f0f0f0; /* Fondo gris claro cuando el ratón pasa por encima */
+    color: #ff6600; /* Mantener el texto naranja */
+    border-color: #ff6600; /* Mantener el borde naranja */
+  }
+  
+  /* Estilo del botón Agregar */
+  .btn-warning {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff6600;  /* Fondo naranja */
+    border: none;
+    color: #fff;
+    width: 80%;  /* Hacer los botones más anchos */
+    height: 45px; /* Aumentar la altura */
+    padding: 10px 0;  /* Ajustar el padding para hacer los botones más altos */
+  }
+  

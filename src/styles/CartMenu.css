@@ -1,0 +1,124 @@
+/* CartMenu.css */
+
+/* Bloque principal: carrito */
+.cart-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .cart-menu--open {
+    transform: translateX(0);
+  }
+  
+  /* Barra superior del carrito */
+  .cart-menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  
+  .cart-menu__header-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-menu__header-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart-menu__header-space {
+    width: 40px; /* Espacio para balancear el diseño */
+  }
+  
+  /* Información del carrito */
+  .cart-menu__info {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 15px;
+  }
+  
+  .cart-menu__info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .cart-menu__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-menu__item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-menu__item-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cart-menu__item-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .cart-menu__item-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .cart-menu__item-button--disabled {
+    cursor: not-allowed;
+  }
+  
+  .cart-menu__item-button--delete {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  /* Botón de continuar con el pago */
+  .cart-menu__checkout-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  

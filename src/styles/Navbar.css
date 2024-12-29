@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+/* Iconos de usuario, carrito y total deben estar en la misma fila */
+.navbar__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Ajusta el espacio entre los íconos */
+  }
+  
+  .navbar__icon {
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar__account-link {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  /* Información del carrito y total */
+  .navbar__cart {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .navbar__cart-span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .navbar__total {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar__total-label {
+    margin-right: 5px;
+  }
+  
+  .navbar__total-amount {
+    color: #28a745; /* Color verde para el total */
+  }
+  
