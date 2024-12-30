@@ -1,6 +1,5 @@
 
-import libro1 from '/public/assets/Libros/libro2.jpg';
-import libro2 from '/assets/Libros/libro2.jpg';
+import libro1 from '/libro1.jpg';
 
 const books = [
   { 
@@ -20,7 +19,7 @@ const books = [
   },
   { 
     id: 2, 
-    image: libro2, 
+    image: '/public/assets/Libros/libro3.jpg', 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
