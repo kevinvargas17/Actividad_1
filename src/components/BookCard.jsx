@@ -11,6 +11,8 @@ const BookCard = ({ book }) => {
     addToCart(book);  // Llamamos a la función addToCart con el producto actual
   };
 
+  
+
   return (
     <div className="col-12 col-sm-6 col-md-4 col-lg-2">
       <div className="card h-100 d-flex flex-column position-relative">
