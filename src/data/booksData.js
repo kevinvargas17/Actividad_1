@@ -1,23 +1,4 @@
-import libro1 from '/assets/Libros/libro1.jpg';
-import libro2 from '/assets/libros/libro2.jpg';
-import libro3 from '/assets/libros/libro3.jpg';
-import libro4 from '/assets/libros/libro4.jpg';
-import libro5 from '/assets/libros/libro5.jpg';
-import libro6 from '/assets/libros/libro6.jpg';
-import libro7 from '/assets/libros/libro7.jpg';
-import libro8 from '/assets/libros/libro8.jpg';
-import libro9 from '/assets/libros/libro9.jpg';
-import libro10 from '/assets/libros/libro10.jpg';
-import libro11 from '/assets/libros/libro11.jpg';
-import libro12 from '/assets/libros/libro12.jpg';
-import libro13 from '/assets/libros/libro13.jpg';
-import libro14 from '/assets/libros/libro14.jpg';
-import libro15 from '/assets/libros/libro15.jpg';
-import libro16 from '/assets/libros/libro16.jpg';
-import libro17 from '/assets/libros/libro17.jpg';
-import libro18 from '/assets/libros/libro18.jpg';
-import libro19 from '/assets/libros/libro19.jpg';
-import libro20 from '/assets/libros/libro20.jpg';
+
 
 // Tasa de cambio aproximada 1 USD = 4000 COP
 const usdToCOP = 4000;
@@ -25,7 +6,7 @@ const usdToCOP = 4000;
 const books = [
   { 
     id: 1, 
-    image: libro1, 
+    image: '../../public/assets/Libros/libro1.jpg', 
     title: "De Mí Para Mí, La Tormenta Pasará (Spanish Edition)", 
     edition: "Edición en Español", 
     author: "Nacarid Portal", 
@@ -40,7 +21,7 @@ const books = [
   },
   { 
     id: 2, 
-    image: libro2, 
+    image: '../../public/assets/Libros/libro2.jpg', 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
@@ -55,7 +36,7 @@ const books = [
   },
   { 
     id: 3, 
-    image: libro3, 
+    image: '../../public/assets/Libros/libro3.jpg', 
     title: "El Poder de la Disciplina", 
     edition: "Edición en Español", 
     author: "Daniel Habif", 
@@ -70,7 +51,7 @@ const books = [
   },
   { 
     id: 4, 
-    image: libro4, 
+    image: '../../public/assets/Libros/libro4.jpg', 
     title: "La Magia del Orden", 
     edition: "Edición en Español", 
     author: "Marie Kondo", 
@@ -85,7 +66,7 @@ const books = [
   },
   { 
     id: 5, 
-    image: libro5, 
+    image: '../../public/assets/Libros/libro5.jpg', 
     title: "El Alquimista", 
     edition: "Edición en Español", 
     author: "Paulo Coelho", 
@@ -100,7 +81,7 @@ const books = [
   },
   { 
     id: 6, 
-    image: libro6, 
+    image: '../../public/assets/Libros/libro6.jpg', 
     title: "De Mí Para Mí, La Tormenta Pasará", 
     edition: "Edición en Español", 
     author: "Nacarid Portal", 
@@ -115,7 +96,7 @@ const books = [
   },
   { 
     id: 7, 
-    image: libro7, 
+    image: '../../public/assets/Libros/libro7.jpg', 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
@@ -130,7 +111,7 @@ const books = [
   },
   { 
     id: 8, 
-    image: libro8, 
+    image: '../../public/assets/Libros/libro8.jpg', 
     title: "El Poder de la Disciplina", 
     edition: "Edición en Español", 
     author: "Daniel Habif", 
@@ -145,7 +126,7 @@ const books = [
   },
   { 
     id: 9, 
-    image: libro9, 
+    image: '../../public/assets/Libros/libro9.jpg', 
     title: "La Magia del Orden", 
     edition: "Edición en Español", 
     author: "Marie Kondo", 
@@ -160,7 +141,7 @@ const books = [
   },
   { 
     id: 10, 
-    image: libro10, 
+    image: '../../public/assets/Libros/libro10.jpg', 
     title: "El Alquimista", 
     edition: "Edición en Español", 
     author: "Paulo Coelho", 
@@ -175,7 +156,7 @@ const books = [
   },
   { 
     id: 11, 
-    image: libro11, 
+    image: '../../public/assets/Libros/libro11.jpg', 
     title: "De Mí Para Mí, La Tormenta Pasará (Spanish Edition)", 
     edition: "Edición en Español", 
     author: "Nacarid Portal", 
@@ -190,7 +171,7 @@ const books = [
   },
   { 
     id: 12, 
-    image: libro12, 
+    image: '../../public/assets/Libros/libro12.jpg', 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
@@ -205,7 +186,7 @@ const books = [
   },
   { 
     id: 13, 
-    image: libro13, 
+    image: '../../public/assets/Libros/libro13.jpg', 
     title: "El Poder de la Disciplina", 
     edition: "Edición en Español", 
     author: "Daniel Habif", 
@@ -220,7 +201,7 @@ const books = [
   },
   { 
     id: 14, 
-    image: libro14, 
+    image: '../../public/assets/Libros/libro14.jpg', 
     title: "La Magia del Orden", 
     edition: "Edición en Español", 
     author: "Marie Kondo", 
@@ -235,7 +216,7 @@ const books = [
   },
   { 
     id: 15, 
-    image: libro15, 
+    image: '../../public/assets/Libros/libro15.jpg', 
     title: "El Alquimista", 
     edition: "Edición en Español", 
     author: "Paulo Coelho", 
@@ -250,7 +231,7 @@ const books = [
   },
   { 
     id: 16, 
-    image: libro16, 
+    image: '../../public/assets/Libros/libro16.jpg', 
     title: "De Mí Para Mí, La Tormenta Pasará", 
     edition: "Edición en Español", 
     author: "Nacarid Portal", 
@@ -265,7 +246,7 @@ const books = [
   },
   { 
     id: 17, 
-    image: libro17, 
+    image: '../../public/assets/Libros/libro17.jpg', 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
@@ -280,7 +261,7 @@ const books = [
   },
   { 
     id: 18, 
-    image: libro18, 
+    image: '../../public/assets/Libros/libro18.jpg', 
     title: "El Poder de la Disciplina", 
     edition: "Edición en Español", 
     author: "Daniel Habif", 
@@ -295,7 +276,7 @@ const books = [
   },
   { 
     id: 19, 
-    image: libro19, 
+    image: '../../public/assets/Libros/libro19.jpg', 
     title: "La Magia del Orden", 
     edition: "Edición en Español", 
     author: "Marie Kondo", 
@@ -310,7 +291,7 @@ const books = [
   },
   { 
     id: 20, 
-    image: libro20, 
+    image: '../../public/assets/Libros/libro20.jpg', 
     title: "El Alquimista", 
     edition: "Edición en Español", 
     author: "Paulo Coelho", 
