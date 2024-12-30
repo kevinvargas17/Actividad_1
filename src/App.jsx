@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Swal from 'sweetalert2'; // Importamos SweetAlert2
-import MainPage from './Main_Page';
-import BookDetail from './pages/BookDetail';
-import { CartProvider } from './context/CartProvider'; // Proveemos el contexto para toda la app
-import Checkout from './components/Checkout';
+import MainPage from './Main_Page';// Importamos la pagina principal
+import BookDetail from './components/BookDetail';//Importamos el componente del detalle del libro
+import { CartProvider } from './context/CartProvider'; // Importamos el contexto del carrito para toda la aplciación
+import Checkout from './components/Checkout';//Importamos el componente Checkout
 
 function App() {
-  // Estado para controlar si la página está cargando
+  // Estado para controlar la carga de la pagina
   const [loading, setLoading] = useState(true);
 
   // useEffect para simular la carga de la página durante 5 segundos

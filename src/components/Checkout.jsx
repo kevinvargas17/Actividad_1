@@ -6,6 +6,7 @@ import CartMenu from './CartMenu';
 import Swal from 'sweetalert2';
 
 const Checkout = () => {
+  // Asegúrate de extraer `clearCart` del contexto
   const { cart, isOpen, toggleCart, clearCart, totalItems, totalPrice, removeFromCart } = useCart();
   const navigate = useNavigate();
 
@@ -17,7 +18,9 @@ const Checkout = () => {
       confirmButtonText: 'Aceptar',
       confirmButtonColor: '#3085d6',
     }).then(() => {
-      clearCart();
+      // Primero borramos el carrito
+      clearCart(); 
+      // Luego redireccionamos
       navigate('/');
     });
   };
@@ -25,11 +28,9 @@ const Checkout = () => {
   return (
     <div className="checkout">
       <Navbar />
-
       <div className="container mt-5">
         <div className="card shadow-sm p-4">
           <h2 className="text-center mb-4">Resumen de tu pedido</h2>
-
           {cart.length > 0 ? (
             <div className="row">
               <div className="col-md-8">
