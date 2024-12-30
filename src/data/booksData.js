@@ -1,10 +1,11 @@
 
-
+import libro1 from '/public/assets/Libros/libro2.jpg';
+import libro2 from '/assets/Libros/libro2.jpg';
 
 const books = [
   { 
     id: 1, 
-    image: '/public/assets/Libros/Libro1.jpg', 
+    image: libro1, 
     title: "De Mí Para Mí, La Tormenta Pasará (Spanish Edition)", 
     edition: "Edición en Español", 
     author: "Nacarid Portal", 
@@ -19,7 +20,7 @@ const books = [
   },
   { 
     id: 2, 
-    image: '/public/assets/Libros/libro2.jpg', 
+    image: libro2, 
     title: "50 Cápsulas de Amor Propio", 
     edition: "Edición en Español", 
     author: "Sara Espejo", 
