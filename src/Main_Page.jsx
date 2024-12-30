@@ -4,10 +4,12 @@ import Navbar from './components/Navbar';
 import { useCart } from './context/CartProvider';
 import Filters from './components/Filters';
 import BookList from './components/BookList';
-import books from './data/booksData';
+import { getData } from './services/getData';
 
 const MainPage = () => {
   const { cart, isOpen, toggleCart, addToCart } = useCart(); 
+
+  const books = getData();
 
   // Estado de búsqueda
   const [searchQuery, setSearchQuery] = useState('');

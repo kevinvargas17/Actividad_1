@@ -1,73 +1,95 @@
-.card-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  
-  .card-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    background-color: #e9ecef;
-    height: 300px;
-  }
-  
-  .card-image {
-    max-height: 290px;
-    object-fit: contain;
-  }
-  
-  .card-body {
-    padding: 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-  }
-  
-  .card-title {
-    font-size: 14px;
-    margin-bottom: 8px;
-    word-wrap: break-word;
-    white-space: normal;
-  }
-  
-  .card-text {
-    font-size: 12px;
-    margin-bottom: 4px;
-    word-wrap: break-word;
-    white-space: normal;
-  }
-  
-  .card-text.price {
-    font-size: 14px;
-    margin-bottom: 4px;
-    word-wrap: break-word;
-    white-space: normal;
-  }
-  
-  .card-text.original-price {
-    font-size: 12px;
-    text-decoration-line: line-through;
-    color: #6c757d;
-  }
-  
-  .card-btn-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .view-detail-btn {
-    width: 100%;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #000;
-  }
-  
-  .add-to-cart-btn {
-    width: 100%;
-    margin-top: 10px;
-    background-color: #ffc107;
-    border: none;
-  }
-  
+.book-card__col {
+  padding: 10;
+}
+
+.book-card__card {
+  position: relative;
+  overflow: hidden;
+}
+
+.book-card__image-container {
+  background-color: #e9ecef;
+  height: 300px;
+}
+
+.book-card__image {
+  max-height: 290px;
+  object-fit: contain;
+}
+
+.book-card__body {
+  flex-grow: 1;
+}
+
+.book-card__title {
+  font-size: 14px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.book-card__edition,
+.book-card__author,
+.book-card__rating,
+.book-card__format,
+.book-card__price,
+.book-card__delivery,
+.book-card__options,
+.book-card__other-format {
+  font-size: 12px;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.book-card__price {
+  font-size: 14px;
+}
+
+.book-card__btn-container {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  background-color: #ffffff;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.book-card__card:hover .book-card__btn-container {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.book-card__view-detail-btn {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 80%;
+  height: 45px;
+  border-color: #ff6600;
+  background-color: #ffffff;
+  color: #ff6600;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px 0;
+}
+
+.book-card__view-detail-btn:hover {
+  background-color: #f0f0f0;
+  color: #ff6600;
+  border-color: #ff6600;
+}
+
+.book-card__add-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  width: 80%;
+  height: 45px;
+  padding: 10px 0;
+}

@@ -1,0 +1,124 @@
+.book-detail {
+    padding: 0;
+  }
+  
+  .book-detail__row {
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  
+  .book-detail__image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book-detail__image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .book-detail__info-col {
+    padding-left: 20px;
+  }
+  
+  .book-detail__title {
+    font-family: 'Arial, sans-serif';
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .book-detail__author {
+    font-family: 'Arial, sans-serif';
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .book-detail__rating {
+    font-size: 1.5rem;
+  }
+  
+  .book-detail__rating-stars {
+    font-size: 1.5rem;
+  }
+  
+  .book-detail__reviews {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .book-detail__price {
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .book-detail__description {
+    font-family: 'Arial, sans-serif';
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .book-detail__purchase-options {
+    margin-top: 20px;
+  }
+  
+  .book-detail__purchase-title {
+    font-family: 'Arial, sans-serif';
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .book-detail__options-list {
+    padding-left: 20px;
+  }
+  
+  .book-detail__option {
+    font-family: 'Arial, sans-serif';
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .book-detail__additional-info {
+    margin-top: 20px;
+  }
+  
+  .book-detail__action-col {
+    padding-left: 20px;
+  }
+  
+  .book-detail__free-shipping {
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .book-detail__shipping-info {
+    font-size: 0.9rem;
+  }
+  
+  .book-detail__stock {
+    margin-bottom: 20px;
+  }
+  
+  .book-detail__action-buttons {
+    margin-top: 30px;
+  }
+  
+  .book-detail__buy-now {
+    font-family: 'Arial, sans-serif';
+    font-size: 1.1rem;
+  }
+  
+  .book-detail__add-to-cart {
+    font-family: 'Arial, sans-serif';
+    font-size: 1.1rem;
+  }
+  
+  .book-detail__seller-info {
+    margin-top: 20px;
+  }
+  
+  .book-detail__seller-info p {
+    margin-bottom: 5px;
+  }
+  
