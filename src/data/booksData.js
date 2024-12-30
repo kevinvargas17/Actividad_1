@@ -1,5 +1,5 @@
 
-import libro1 from '/libro1.jpg';
+import libro1 from '../img/libro1.jpg';
 
 const books = [
   { 
